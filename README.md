@@ -2,16 +2,11 @@
 
 Design Document
 
-Brandan Jones
+Team member:  Oliver Lu   Juan Lopez Rosado
 
 ## Introduction  
 
-Do you remember when you planted the apple tree?  Do you know when to water and fertilize your plants? MyPlantDiary can help you:
--	Record dates and locations where you planted plants.
--	Take and view photos of a plant throughout its life.
--	Record when you added water, fertilizer, and other amendments.
--	Be aware of upcoming events for a plant: when to water, when growing season ends, etc.
-Use your Android device to create your own plant diary.  Take photos with the on-device camera.  Create reminders based on what you did in previous years.   Receive alerts about upcoming events for your plant.
+xxx (Project Name) is an app that will offer an innovative yet user friendly experience, to incoming and outgoing students, who need a convenient solution to sell, purchase or auction items. xxx will allow students to purchase furniture, daily necessities, and electronic products from other students. CollegeHub will include a simple and secure email verification method, a list of items from the University, a filtering system for specific items, and an option to auction products. 
 
 
 ## Storyboard
