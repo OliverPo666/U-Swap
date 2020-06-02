@@ -1,4 +1,4 @@
-# My Plant Diary  
+# College Hub 
 
 Design Document
 
