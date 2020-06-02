@@ -1,4 +1,4 @@
-# College Hub 
+# U-Swap 
 
 Design Document
 
@@ -6,7 +6,7 @@ Team member:  Oliver Lu   Juan Lopez Rosado
 
 ## Introduction  
 
-xxx (Project Name) is an app that will offer an innovative yet user friendly experience, to incoming and outgoing students, who need a convenient solution to sell, purchase or auction items. xxx will allow students to purchase furniture, daily necessities, and electronic products from other students. CollegeHub will include a simple and secure email verification method, a list of items from the University, a filtering system for specific items, and an option to auction products. 
+U-Swap is an app that will offer an innovative yet user friendly experience, to incoming and outgoing students, who need a convenient solution to sell, purchase or auction items. xxx will allow students to purchase furniture, daily necessities, and electronic products from other students. U-Swap will include a simple and secure email verification method, a list of items from the University, a filtering system for specific items, and an option to auction products. 
 
 
 ## Storyboard
