@@ -11,113 +11,82 @@ U-Swap is an app that will offer an innovative yet user friendly experience, to 
 
 ## Storyboard
 
-[Storyboard](https://projects.invisionapp.com/prototype/Plant-Diary-ck0bict0n005bqh01aaeu8tuu/play/c6560121)
+[Storyboard]()
 
-![MyPlantDiaryFirstScreen](https://user-images.githubusercontent.com/2224876/82159850-58f52f80-985f-11ea-8260-b8391f7ae87e.png)
+![U-Swap First Screen]()
 
 # Requirements
 
-## Requirement 100: Search for Plants
+## Requirement 1: 
 
 ### Scenario  
 
-As a user interested in plants, I want to be able to search plants based on any part of the name: genus, species, cultivar, or common name.
+
 
 ### Dependencies  
 
-Plant search data are available and accessible.
+
 
 ### Assumptions
 
-Scientific names are stated in Latin.  
 
-Common names are stated in English.
 
 ### Example  
 
 1.1
-**Given** a feed of plant data is available  
-**When** I search for “Redbud”  
-**Then** I should receive at least one result with these attributes:   
-Genus: Cercis  
-Species: canadensis  
-Common: Eastern Redbud   
+**Given**  
+**When**   
+**Then**    
+
 1.2  
-**Given** a feed of plant data is available  
-**When** I search for “Quercus”  
-**Then** I should receive at least one result with these attributes:   
-Genus: Quercus  
-Species: robur  
-Common: English Oak  
-And I should receive at least one result with these attributes:  
-Genus: Quercus  
-Species: alba  
-Common: White Oak  
+**Given**   
+**When**  
+**Then**    
+ 
 
 1.3  
-**Given** a feed of plant data is available  
-**When** I search for “sklujapouetllkjsda;u”  
-**Then** I should receive zero results (an empty list)  
+**Given** 
+**When** 
+**Then** 
 
 
-## Requirement 101: Save Specimen
+## Requirement 2: 
 
 ### Scenario
 
-As a user interested in plants, I want to be able to enter and save details of a specimen: date planted, photos, and locations, so that I can view a history of this plant.  
 
-### Dependencies
-Plant search data are available and accessible.  
-The device has a camera, and the user has granted access to the camera.  
-The device has GPS capabilities, and the user has granted location access.  
+### Dependencies  
 
 ## Assumptions  
-Scientific names are stated in Latin.  
-Common names are stated in English.  
-Examples  
+
 1.1  
-**Given** a feed of plant data is available  
-**Given** GPS details are available  
+**Given** 
+**Given**  
 **When** 
--	Select the plant Asimina triloba  
--	Add notes: “planted by Brandan Jones”  
-**Then**  when I navigate to the Specimen History view, I should see at least one Asimina triloba specimen with the notes, “planted by Brandan Jones”  
+
+**Then**  
+
 2.1  
-**Given** a feed of plant data is available  
-**Given** GPS details are available  
+**Given**   
+**Given**   
 **When**   
--	Select the plant Malus domestica ‘Fuji’  
--	Take a photo of a Fuji apple seedling  
-**Then** when I navigate to the Specimen History view, I should see at least one Malus domestica ‘Fuji’ specimen with the a photo of a Fuji apple seedling.  
+
+**Then**  
 
 # Class Diagram
 
 
-![ClassDiagram](https://user-images.githubusercontent.com/2224876/82159966-05371600-9860-11ea-83dc-f13f4a7e2921.png)
-
 
 ## Class Diagram Description
 
-**MainActivity**:  The first screen the user sees.  This will have a list of specimens, and an option to enter a new specimen.
-**SpecimenDetailsActivity**:  A screen that shows details of a specimen.
-**RetrofitInstance**: Boostrap class required for Retrofit.
-**Plant**: Noun class that represents a plant.
-**Specimen**: Noun class that represents a specimen.
-**IPlantDAO**: Interface for Retrofit to find and parse Plant JSON.
-**ISpecimenDAO**: Interface for Room to persist Specimen data.
 
 # Scrum Roles
 
-DevOps/Product Owner/Scrum Master: Brandan Jones  
-Frontend Developer: Brandan Jones  
-Integration Developer: Brandan Jones  
+DevOps/Product Owner/Scrum Master:   
+Frontend Developer:   
+Integration Developer: 
 
 # Weekly Meeting
 
-Sunday at 7 PM.  Use this WebEx:
+Saturday at  PM.  
 
-Meeting Information
-Meeting link:
-https://ucincinnati.webex.com/ucincinnati/j.php?MTID=m4eae59003bb943cc093fcd3f287864db
-Meeting number:
-616 881 859
